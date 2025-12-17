@@ -21,7 +21,7 @@
 
 @layer base{
   body{
-    @apply bg-[#383838] text-white;
+    @apply bg-[#262525] text-white;
   }
 }
 
