@@ -19,9 +19,17 @@
   }
 }
 
+@utility no-scrollbar {
+  scrollbar-width: auto;
+  -ms-overflow-style: none; 
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 @layer base{
   body{
-    @apply bg-[#262525] text-white;
+    @apply bg-[#262525] text-white no-scrollbar;
   }
 }
 
